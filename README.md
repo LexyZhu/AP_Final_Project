@@ -13,3 +13,10 @@ the code source. In this case, you can replicate our results by simply run:
 
 `uv run benchmarking_triton.py` 
 
+## Further instructions
+In the `benchmarking_trirton.py` file, at line **170** currently we are testing over the sequence length 128, 256..., 16384. The results will be illustrated only all of the sequence length tests are donw. Therefore, to reduce the amount time that you need to run on the experiments, you can adjust it by
+
+`range(7,15)` to `range(7,12)`
+
+for example.
+
