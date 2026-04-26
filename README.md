@@ -17,7 +17,7 @@ If not, thanks to Professor Greg Durrett for building the uv environment for run
 In this case, you can replicate our results by simply running:
 
 ```bash
-uv run benchmarking_triton.py
+uv run python benchmarking_triton.py
 ```
 
 ## Further Instructions
