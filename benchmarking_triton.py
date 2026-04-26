@@ -167,7 +167,7 @@ def main():
     gpu_name = torch.cuda.get_device_name(0)
     print(f"Running on GPU: {gpu_name}")
 
-    seq_lens = [2 ** i for i in range(7, 15)]   # 128 ...
+    seq_lens = [2 ** i for i in range(7, 15)]   # 128 ... 16384
     d_models = [2 ** i for i in range(4, 8)]    # 16, 32, 64, 128
     dtypes = [torch.bfloat16, torch.float32]
 
