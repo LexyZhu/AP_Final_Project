@@ -1,3 +1,10 @@
+# Adapted from:
+# https://github.com/gregdurrett/nyu-llm-reasoners-a2
+#
+# This file is used only for uv-based environment and dependency setup.
+# The project description below has no relevance to the Advanced Python Project
+# The FlashAttention implementation, benchmarking logic, experiments, and analysis in this repository are our own work.
+
 [project]
 name = "student"
 version = "1.0.5"
